@@ -6,6 +6,6 @@
 
 <NavBar selectedCategory={$page.url.pathname} />
 
-<div class="bg-[#252526] flex h-full ">
+<div class="bg-[#252526] flex h-full pt-12">
 	<slot />
 </div>

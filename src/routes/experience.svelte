@@ -2,4 +2,4 @@
 	import Section from '$lib/section.svelte';
 </script>
 
-<Section title={'O mnie'} />
+<Section title={'Doświadczenie'} />

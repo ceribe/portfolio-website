@@ -1,17 +1,11 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-
-	const categories = [
-		{ name: 'O mnie', route: '/' },
-		{ name: 'Doświadczenie', route: '/experience' },
-		{ name: 'Umiejętności', route: '/skills' },
-		{ name: 'Projekty', route: '/projects' }
-	];
+	import { categories } from './stores';
 	export let selectedCategory: string;
 </script>
 
 <div
-	class="fixed border-r-gray-800 w-32 bg-[#333333] h-full flex items-center justify-center gap-6 flex-col"
+	class="fixed border-r-gray-800 invisible md:visible w-32 bg-[#333333] h-full flex items-center justify-center gap-6 flex-col"
 >
 	{#each categories as category}
 		<div class="group flex flex-row">

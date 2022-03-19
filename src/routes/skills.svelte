@@ -5,9 +5,7 @@
 </script>
 
 <Section title={'Umiejętności'}>
-	<h1 class="text-2xl border-b-[1px] border-[#aaaaaa] font-semibold w-full">
-		Języki programowania
-	</h1>
+	<h1 class="text-2xl border-b-[1px] border-[#aaaaaa] font-semibold mb-4">Języki programowania</h1>
 	<div class="w-full flex flex-wrap">
 		<TechnologyCard name="kotlin" />
 		<TechnologyCard name="ruby" />
@@ -18,7 +16,9 @@
 		<TechnologyCard name="c++" />
 	</div>
 
-	<h1 class="text-2xl border-b-[1px] border-[#aaaaaa] font-semibold">Frameworki i biblioteki</h1>
+	<h1 class="text-2xl border-b-[1px] border-[#aaaaaa] font-semibold mb-4 mt-4">
+		Frameworki i biblioteki
+	</h1>
 	<div class="w-full flex flex-wrap">
 		<TechnologyCard name="jetpack_compose" />
 		<TechnologyCard name="svelte" />
@@ -29,7 +29,7 @@
 		<TechnologyCard name="svelte_cubed" />
 	</div>
 
-	<h1 class="text-2xl border-b-[1px] border-[#aaaaaa] font-semibold">Narzędzia i inne</h1>
+	<h1 class="text-2xl border-b-[1px] border-[#aaaaaa] font-semibold mb-4 mt-4">Narzędzia i inne</h1>
 	<div class="w-full flex flex-wrap">
 		<TechnologyCard name="vscode" />
 		<TechnologyCard name="intellij_idea" />
@@ -38,11 +38,11 @@
 		<TechnologyCard name="c++builder" />
 		<TechnologyCard name="gitkraken" />
 		<TechnologyCard name="sourcetree" />
-		<TechnologyCard name="obs" />
 		<TechnologyCard name="git" />
-		<TechnologyCard name="latex" />
-		<TechnologyCard name="markdown" />
-		<TechnologyCard name="stack_overflow" />
 		<TechnologyCard name="github" />
+		<TechnologyCard name="markdown" />
+		<TechnologyCard name="latex" />
+		<TechnologyCard name="obs" />
+		<TechnologyCard name="stack_overflow" />
 	</div>
 </Section>

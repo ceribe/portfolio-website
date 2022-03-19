@@ -6,6 +6,6 @@
 
 <NavBar selectedCategory={$page.url.pathname} />
 
-<div class="flex pt-12">
+<div class="flex pt-24">
 	<slot />
 </div>

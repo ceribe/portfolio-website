@@ -5,17 +5,17 @@
 </script>
 
 <div
-	class="fixed border-r-gray-800 invisible md:visible w-32 bg-[#333333] h-full flex items-center justify-center gap-6 flex-col"
+	class="fixed border-b-gray-300 border-2 h-14 bg-[#f7f7f7] w-full flex items-center justify-center gap-8 flex-row z-10"
 >
 	{#each categories as category}
-		<div class="group flex flex-row">
+		<div class="group flex flex-col">
 			<button
-				class="font-semibold text-sm  h-11 pb-2 pt-2 w-[7.5rem]
-					{category.route == selectedCategory ? 'text-[#ebebeb]' : 'hover:text-[#ebebeb] text-[#7a7a7a]'}"
+				class="font-semibold text-sm  h-12 pt-2 w-full
+					{category.route == selectedCategory ? 'text-sky-400' : 'hover:text-gray-400'}"
 				on:click={() => goto(category.route)}>{category.name}</button
 			>
 			<div
-				class="w-2 rounded-l-lg
+				class="h-2 rounded-t-lg
 					{category.route == selectedCategory ? 'bg-sky-400/75' : 'group-hover:bg-gray-400'}"
 			/>
 		</div>

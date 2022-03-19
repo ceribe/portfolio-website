@@ -1,6 +1,5 @@
 export const categories = [
 	{ name: 'O mnie', route: '/' },
-	{ name: 'Doświadczenie', route: '/experience' },
 	{ name: 'Umiejętności', route: '/skills' },
 	{ name: 'Projekty', route: '/projects' }
 ];

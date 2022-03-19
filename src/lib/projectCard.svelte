@@ -8,12 +8,12 @@
 </script>
 
 <button
-	class="bg-[#e3e3e3] hover:bg-[#bbbbbb] rounded-2xl w-[360px] h-[260px] flex justify-center items-center flex-col m-2"
+	class="bg-[#f7f7f7] hover:bg-[#dddddd] rounded-2xl w-[360px] h-[260px] flex justify-center items-center flex-col mr-4 hover:shadow-xl drop-shadow-2xl"
 	on:click={() => goto(link)}
 >
 	<img src={filename} alt={name} class="w-full h-full rounded-t-2xl" />
 	<div
-		class="text-[#252526] font-bold text-xs border-t-2 border-[#252526] w-full h-full flex justify-center items-center p-2"
+		class="font-bold text-xs border-t-2 border-[#bbbbbb] w-full h-full flex justify-center items-center p-2"
 	>
 		{shortDescription}
 	</div>

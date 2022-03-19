@@ -21,7 +21,7 @@
 			name="Advent of Code"
 			filename="/advent_of_code.png"
 			link="/projects/advent-of-code"
-			shortDescription="Advent of Code to wydarzenie programistyczne w którym biorę udział. Co roku przez pierwsze 25 dni grudnia publikowane są zadania programistyczne."
+			shortDescription="Advent of Code to coroczne wydarzenie programistyczne w którym biorę udział od 2021 roku. Codziennie przez pierwsze 25 dni grudnia publikowane są zadania programistyczne o rosnącym poziomie trudności."
 		/>
 	</div>
 </Section>

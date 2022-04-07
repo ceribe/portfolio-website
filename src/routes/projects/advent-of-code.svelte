@@ -1,4 +1,5 @@
 <script>
+	import Divider from '$lib/divider.svelte';
 	import Section from '$lib/section.svelte';
 	import TechnologyCard from '$lib/technologyCard.svelte';
 </script>
@@ -19,7 +20,7 @@
 		na github-ie.
 	</div>
 
-	<h1 class="text-2xl border-b-[1px] border-[#aaaaaa] font-semibold mb-4">Użyte techonologie</h1>
+	<Divider>Użyte techonologie</Divider>
 	<div class="w-full flex flex-wrap">
 		<TechnologyCard name="javascript" />
 		<TechnologyCard name="go" />

@@ -1,4 +1,5 @@
 <script>
+	import Divider from '$lib/divider.svelte';
 	import Section from '$lib/section.svelte';
 	import TechnologyCard from '$lib/technologyCard.svelte';
 </script>
@@ -20,7 +21,7 @@
 		zapoznałem się z wieloma bibliotekami m.in. Room, Google Play Billing Library i jsoup.
 	</div>
 
-	<h1 class="text-2xl border-b-[1px] border-[#aaaaaa] font-semibold mb-4">Użyte techonologie</h1>
+	<Divider>Użyte techonologie</Divider>
 	<div class="w-full flex flex-wrap">
 		<TechnologyCard name="kotlin" />
 		<TechnologyCard name="jetpack_compose" />

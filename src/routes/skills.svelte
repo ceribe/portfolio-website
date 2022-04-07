@@ -43,7 +43,10 @@
 		<TechnologyCard name="github" />
 		<TechnologyCard name="markdown" />
 		<TechnologyCard name="latex" />
+		<TechnologyCard name="html" />
+		<TechnologyCard name="css" />
 		<TechnologyCard name="obs" />
+		<TechnologyCard name="gimp" />
 		<TechnologyCard name="stack_overflow" />
 	</div>
 </Section>

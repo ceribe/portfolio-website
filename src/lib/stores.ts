@@ -91,12 +91,15 @@ export const technologies = new Map<string, Technology>([
 		{ name: 'Sourcetree', filename: '/sourcetree.png', link: 'https://www.sourcetreeapp.com/' }
 	],
 	['obs', { name: 'OBS Studio', filename: '/obs.png', link: 'https://obsproject.com/' }],
+	['gimp', { name: 'GIMP', filename: '/gimp.png', link: 'https://www.gimp.org/' }],
 	['git', { name: 'Git', filename: '/git.png', link: 'https://git-scm.com/' }],
 	['latex', { name: 'LaTeX', filename: '/latex.png', link: 'https://www.latex-project.org/' }],
 	[
 		'markdown',
 		{ name: 'Markdown', filename: '/markdown.png', link: 'https://en.wikipedia.org/wiki/Markdown' }
 	],
+	['html', { name: 'HTML', filename: '/html.png', link: 'https://en.wikipedia.org/wiki/HTML' }],
+	['css', { name: 'CSS', filename: '/css.png', link: 'https://en.wikipedia.org/wiki/CSS' }],
 	[
 		'stack_overflow',
 		{

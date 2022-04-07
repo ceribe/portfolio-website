@@ -9,7 +9,7 @@
 			name="Cookit"
 			filename="/cookit.png"
 			link="/projects/cookit"
-			shortDescription="Aplikacja mobilna na Androida do zarządzania kolekcją przepisów. Umożliwia pobieranie przepisów ze stron internetowych."
+			shortDescription="Aplikacja mobilna na Androida służąca do zarządzania kolekcją przepisów. Umożliwia pobieranie przepisów ze stron internetowych."
 		/>
 		<ProjectCard
 			name="Ta strona"

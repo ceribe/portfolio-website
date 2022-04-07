@@ -100,6 +100,7 @@ export const technologies = new Map<string, Technology>([
 	],
 	['html', { name: 'HTML', filename: '/html.png', link: 'https://en.wikipedia.org/wiki/HTML' }],
 	['css', { name: 'CSS', filename: '/css.png', link: 'https://en.wikipedia.org/wiki/CSS' }],
+	['sql', { name: 'SQL', filename: '/sql.png', link: 'https://en.wikipedia.org/wiki/SQL' }],
 	[
 		'stack_overflow',
 		{

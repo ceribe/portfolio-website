@@ -28,6 +28,7 @@ export const technologies = new Map<string, Technology>([
 	['go', { name: 'Go', filename: '/go.png', link: 'https://go.dev/' }],
 	['python', { name: 'Python', filename: '/python.png', link: 'https://www.python.org/' }],
 	['c++', { name: 'C++', filename: '/c++.png', link: 'https://isocpp.org/' }],
+	['dart', { name: 'Dart', filename: '/dart.png', link: 'https://dart.dev/' }],
 	[
 		'jetpack_compose',
 		{

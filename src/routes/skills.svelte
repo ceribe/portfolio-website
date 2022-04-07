@@ -9,6 +9,7 @@
 	<div class="w-full flex flex-wrap">
 		<TechnologyCard name="kotlin" />
 		<TechnologyCard name="ruby" />
+		<TechnologyCard name="dart" />
 		<TechnologyCard name="javascript" />
 		<TechnologyCard name="typescript" />
 		<TechnologyCard name="go" />

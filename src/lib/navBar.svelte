@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import { categories } from './stores';
+
 	export let selectedCategory: string;
 </script>
 

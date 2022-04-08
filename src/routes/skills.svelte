@@ -39,6 +39,7 @@
 		<TechnologyCard name="sourcetree" />
 		<TechnologyCard name="git" />
 		<TechnologyCard name="github" />
+		<TechnologyCard name="stack_overflow" />
 		<TechnologyCard name="markdown" />
 		<TechnologyCard name="latex" />
 		<TechnologyCard name="html" />
@@ -46,6 +47,5 @@
 		<TechnologyCard name="sql" />
 		<TechnologyCard name="obs" />
 		<TechnologyCard name="gimp" />
-		<TechnologyCard name="stack_overflow" />
 	</div>
 </Section>

@@ -109,5 +109,9 @@ export const technologies = new Map<string, Technology>([
 			link: 'https://stackoverflow.com/users/13512978/ceribe'
 		}
 	],
-	['github', { name: 'Github', filename: '/github.png', link: 'https://github.com/Ceribe' }]
+	['github', { name: 'Github', filename: '/github.png', link: 'https://github.com/Ceribe' }],
+	[
+		'codewars',
+		{ name: 'Codewars', filename: '/codewars.png', link: 'https://www.codewars.com/users/ceribe' }
+	]
 ]);

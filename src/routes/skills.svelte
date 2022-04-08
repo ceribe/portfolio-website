@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Divider from '$lib/divider.svelte';
 	import Section from '$lib/section.svelte';
-	import { technologies } from '$lib/stores';
 	import TechnologyCard from '$lib/technologyCard.svelte';
 </script>
 

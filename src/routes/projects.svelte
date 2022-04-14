@@ -4,7 +4,7 @@
 </script>
 
 <Section title={'Projekty'}>
-	<div class="w-full flex flex-wrap">
+	<div class="w-full flex flex-wrap justify-center">
 		<ProjectCard
 			name="Cookit"
 			filename="/cookit.png"

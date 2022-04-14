@@ -15,6 +15,7 @@
 		<TechnologyCard name="go" />
 		<TechnologyCard name="python" />
 		<TechnologyCard name="c++" />
+		<TechnologyCard name="ocaml" />
 	</div>
 	<Divider>Frameworki i biblioteki</Divider>
 	<div class="w-full flex flex-wrap">

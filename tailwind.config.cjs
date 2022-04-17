@@ -6,6 +6,9 @@ const config = {
 			fontFamily: {
 				quicksand: ['Quicksand']
 			}
+		},
+		screens: {
+			mobile: { max: '767px' }
 		}
 	},
 

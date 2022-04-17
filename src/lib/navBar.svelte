@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="fixed border-b-gray-300 border-2 h-14 bg-[#f7f7f7] w-full flex items-center justify-center gap-8 flex-row z-10"
+	class="fixed border-b-gray-300 border-2 h-14 bg-[#f7f7f7] w-full flex items-center justify-center gap-10 flex-row z-10"
 >
 	{#each categories as category}
 		<div class="group flex flex-col">

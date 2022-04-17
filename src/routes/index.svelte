@@ -13,7 +13,8 @@
 		[2019 - Teraz] Prowadzenie sklepu wysyłkowego przez platformę
 		<a href="https://www.cardmarket.com/en/Magic/Users/Ceribe" class="text-blue-600">CardMarket</a>
 	</p>
-	<p class="text-base">[2019 - Teraz] Programista C++ | CAD Projekt K&A Sp. z o.o.</p>
+	<p class="text-base">[2019 - Teraz] Programista C++ |</p>
+	<div class="whitespace-nowrap">CAD Projekt K&A Sp. z o.o.</div>
 	<Divider>Kontakt</Divider>
 	<a href="mailto:szymon.opielewicz@gmail.com" class="text-blue-600 text-base">
 		szymon.opielewicz@gmail.com

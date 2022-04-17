@@ -8,7 +8,7 @@
 </script>
 
 <button
-	class="bg-[#f7f7f7] hover:bg-[#dddddd] rounded-2xl w-[26rem] h-[280px] flex justify-center items-center flex-col mr-4 mb-6 hover:shadow-xl drop-shadow-xl"
+	class="bg-[#f7f7f7] hover:bg-[#dddddd] rounded-2xl w-[26rem] h-[280px] flex justify-center items-center flex-col mr-2 ml-2 mb-6 hover:shadow-xl drop-shadow-xl"
 	on:click={() => goto(link)}
 >
 	<img src={filename} alt={name} class="w-[450px] h-[300px] rounded-t-2xl" />

@@ -12,7 +12,7 @@
 		<div class="group flex flex-col">
 			<button
 				class="font-semibold text-sm  h-12 pt-1 w-full
-					{category.route == selectedCategory ? 'text-sky-400' : 'hover:text-gray-400'}"
+					{category.route == selectedCategory ? 'text-black' : 'hover:text-gray-400'}"
 				on:click={() => goto(category.route)}>{category.name}</button
 			>
 			<div

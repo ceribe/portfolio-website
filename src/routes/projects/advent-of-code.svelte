@@ -16,9 +16,7 @@
 		poziomie trudności. Zadania z poprzednich lat są dostępne na stronie więc można nad nimi
 		pracować nawet po zakończeniu wydarzenia. Zadania z każdego roku rozwiązuję z użyciem innego
 		języka programowania aby poznać ich składnie i możliwości. Wszystkie moje rozwiązania dostępne
-		są w moim
-		<a href="https://github.com/ceribe/advent-of-code-2021" class="underline">repozytorium</a>
-		na github-ie.
+		<a href="https://github.com/ceribe/advent-of-code-2021" class="underline">tutaj</a>.
 	</div>
 
 	<Divider>Użyte techonologie</Divider>

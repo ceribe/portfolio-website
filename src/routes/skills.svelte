@@ -41,6 +41,7 @@
 		<TechnologyCard name="git" />
 		<TechnologyCard name="github" />
 		<TechnologyCard name="stack_overflow" />
+		<TechnologyCard name="surge" />
 		<TechnologyCard name="markdown" />
 		<TechnologyCard name="latex" />
 		<TechnologyCard name="html" />

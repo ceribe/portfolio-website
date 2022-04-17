@@ -114,5 +114,6 @@ export const technologies = new Map<string, Technology>([
 	[
 		'codewars',
 		{ name: 'Codewars', filename: '/codewars.png', link: 'https://www.codewars.com/users/ceribe' }
-	]
+	],
+	['surge', { name: 'Surge', filename: '/surge.png', link: 'https://surge.sh' }]
 ]);

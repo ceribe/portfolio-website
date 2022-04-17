@@ -11,12 +11,12 @@
 	{#each categories as category}
 		<div class="group flex flex-col">
 			<button
-				class="font-semibold text-sm  h-12 pt-2 w-full
+				class="font-semibold text-sm  h-12 pt-1 w-full
 					{category.route == selectedCategory ? 'text-sky-400' : 'hover:text-gray-400'}"
 				on:click={() => goto(category.route)}>{category.name}</button
 			>
 			<div
-				class="h-2 rounded-t-lg
+				class="h-1 rounded-t
 					{category.route == selectedCategory ? 'bg-sky-400/75' : 'group-hover:bg-gray-400'}"
 			/>
 		</div>

@@ -2,11 +2,12 @@
 	import Divider from '$lib/divider.svelte';
 	import Section from '$lib/section.svelte';
 	import TechnologyCard from '$lib/technologyCard.svelte';
+	import TechnologyContainer from '$lib/technologyContainer.svelte';
 </script>
 
 <Section title={'Umiejętności'}>
 	<Divider>Języki programowania</Divider>
-	<div class="w-full flex flex-wrap">
+	<TechnologyContainer>
 		<TechnologyCard name="kotlin" />
 		<TechnologyCard name="ruby" />
 		<TechnologyCard name="dart" />
@@ -16,9 +17,9 @@
 		<TechnologyCard name="python" />
 		<TechnologyCard name="c++" />
 		<TechnologyCard name="ocaml" />
-	</div>
+	</TechnologyContainer>
 	<Divider>Frameworki i biblioteki</Divider>
-	<div class="w-full flex flex-wrap">
+	<TechnologyContainer>
 		<TechnologyCard name="jetpack_compose" />
 		<TechnologyCard name="svelte" />
 		<TechnologyCard name="svelte_kit" />
@@ -26,10 +27,10 @@
 		<TechnologyCard name="three_js" />
 		<TechnologyCard name="opengl" />
 		<TechnologyCard name="svelte_cubed" />
-	</div>
+	</TechnologyContainer>
 
 	<Divider>Narzędzia i inne</Divider>
-	<div class="w-full flex flex-wrap">
+	<TechnologyContainer>
 		<TechnologyCard name="vscode" />
 		<TechnologyCard name="intellij_idea" />
 		<TechnologyCard name="android_studio" />
@@ -47,5 +48,5 @@
 		<TechnologyCard name="sql" />
 		<TechnologyCard name="obs" />
 		<TechnologyCard name="gimp" />
-	</div>
+	</TechnologyContainer>
 </Section>

@@ -2,6 +2,7 @@
 	import Divider from '$lib/divider.svelte';
 	import Section from '$lib/section.svelte';
 	import TechnologyCard from '$lib/technologyCard.svelte';
+	import TechnologyContainer from '$lib/technologyContainer.svelte';
 </script>
 
 <Section title={'Ta strona'}>
@@ -13,7 +14,7 @@
 	</div>
 
 	<Divider>Użyte techonologie</Divider>
-	<div class="w-full flex flex-wrap">
+	<TechnologyContainer>
 		<TechnologyCard name="typescript" />
 		<TechnologyCard name="svelte" />
 		<TechnologyCard name="svelte_kit" />
@@ -22,5 +23,5 @@
 		<TechnologyCard name="gitkraken" />
 		<TechnologyCard name="git" />
 		<TechnologyCard name="github" />
-	</div>
+	</TechnologyContainer>
 </Section>

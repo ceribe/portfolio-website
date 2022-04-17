@@ -2,6 +2,7 @@
 	import Divider from '$lib/divider.svelte';
 	import Section from '$lib/section.svelte';
 	import TechnologyCard from '$lib/technologyCard.svelte';
+	import TechnologyContainer from '$lib/technologyContainer.svelte';
 </script>
 
 <Section title={'Advent of Code'}>
@@ -21,11 +22,11 @@
 	</div>
 
 	<Divider>Użyte techonologie</Divider>
-	<div class="w-full flex flex-wrap">
+	<TechnologyContainer>
 		<TechnologyCard name="javascript" />
 		<TechnologyCard name="go" />
 		<TechnologyCard name="ruby" />
 		<TechnologyCard name="dart" />
 		<TechnologyCard name="kotlin" />
-	</div>
+	</TechnologyContainer>
 </Section>

@@ -2,6 +2,7 @@
 	import Divider from '$lib/divider.svelte';
 	import Section from '$lib/section.svelte';
 	import TechnologyCard from '$lib/technologyCard.svelte';
+	import TechnologyContainer from '$lib/technologyContainer.svelte';
 </script>
 
 <Section title={'Cookit - Recipe Manager'}>
@@ -22,12 +23,12 @@
 	</div>
 
 	<Divider>Użyte techonologie</Divider>
-	<div class="w-full flex flex-wrap">
+	<TechnologyContainer>
 		<TechnologyCard name="kotlin" />
 		<TechnologyCard name="jetpack_compose" />
 		<TechnologyCard name="android_studio" />
 		<TechnologyCard name="gitkraken" />
 		<TechnologyCard name="git" />
 		<TechnologyCard name="github" />
-	</div>
+	</TechnologyContainer>
 </Section>

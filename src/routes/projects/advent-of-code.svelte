@@ -15,8 +15,8 @@
 		Każdego roku od 1 do 25 grudnia o 6:00 publikowane są zadania programistyczne o rosnącym
 		poziomie trudności. Zadania z poprzednich lat są dostępne na stronie więc można nad nimi
 		pracować nawet po zakończeniu wydarzenia. Zadania z każdego roku rozwiązuję z użyciem innego
-		języka programowania aby poznać ich składnie i możliwości. Wszystkie moje rozwiązania dostępne
-		<a href="https://github.com/ceribe/advent-of-code-2021" class="underline">tutaj</a>.
+		języka programowania aby poznać ich składnie i możliwości. Wszystkie moje rozwiązania są 
+                dostępne <a href="https://github.com/ceribe/advent-of-code-2021" class="underline">tutaj</a>.
 	</div>
 
 	<Divider>Użyte techonologie</Divider>

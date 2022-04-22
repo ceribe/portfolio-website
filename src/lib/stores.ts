@@ -54,6 +54,9 @@ export const technologies = new Map<string, Technology>([
 		'gitkraken',
 		{ name: 'Gitkraken', filename: '/gitkraken.png', link: 'https://www.gitkraken.com/' }
 	],
+	['ktor', { name: 'Ktor', filename: '/ktor.png', link: 'https://ktor.io/' }],
+	['zeromq', { name: 'ZeroMQ', filename: '/zeromq.png', link: 'https://zeromq.org/' }],
+	['bogue', { name: 'Bogue', filename: '/bogue.png', link: 'https://github.com/sanette/bogue' }],
 	['vscode', { name: 'VSCode', filename: '/vscode.png', link: 'https://code.visualstudio.com/' }],
 	[
 		'intellij_idea',
@@ -71,6 +74,7 @@ export const technologies = new Map<string, Technology>([
 			link: 'https://developer.android.com/studio'
 		}
 	],
+	['goland', { name: 'GoLand', filename: '/goland.png', link: 'https://www.jetbrains.com/go/' }],
 	[
 		'visual_studio',
 		{
@@ -115,5 +119,7 @@ export const technologies = new Map<string, Technology>([
 		'codewars',
 		{ name: 'Codewars', filename: '/codewars.png', link: 'https://www.codewars.com/users/ceribe' }
 	],
-	['surge', { name: 'Surge', filename: '/surge.png', link: 'https://surge.sh' }]
+	['bitbucket', { name: 'Bitbucket', filename: '/bitbucket.png', link: 'https://bitbucket.org' }],
+	['surge', { name: 'Surge', filename: '/surge.png', link: 'https://surge.sh' }],
+	['linux', { name: 'Linux', filename: '/linux.png', link: 'https://www.linux.org/' }]
 ]);

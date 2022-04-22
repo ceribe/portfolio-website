@@ -27,19 +27,25 @@
 		<TechnologyCard name="three_js" />
 		<TechnologyCard name="opengl" />
 		<TechnologyCard name="svelte_cubed" />
+		<TechnologyCard name="ktor" />
+		<TechnologyCard name="zeromq" />
+		<TechnologyCard name="bogue" />
 	</TechnologyContainer>
 
 	<Divider>Narzędzia i inne</Divider>
 	<TechnologyContainer>
+		<TechnologyCard name="linux" />
 		<TechnologyCard name="vscode" />
 		<TechnologyCard name="intellij_idea" />
 		<TechnologyCard name="android_studio" />
+		<TechnologyCard name="goland" />
 		<TechnologyCard name="visual_studio" />
 		<TechnologyCard name="c++builder" />
 		<TechnologyCard name="gitkraken" />
 		<TechnologyCard name="sourcetree" />
 		<TechnologyCard name="git" />
 		<TechnologyCard name="github" />
+		<TechnologyCard name="bitbucket" />
 		<TechnologyCard name="stack_overflow" />
 		<TechnologyCard name="surge" />
 		<TechnologyCard name="markdown" />

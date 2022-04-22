@@ -6,6 +6,11 @@
 </script>
 
 <Section title={'Umiejętności'}>
+	<!-- <Divider>Ogólne</Divider>
+	<TechnologyContainer>
+		<p class="text-lg font-semibold">Angielski B2, REST, SOLID, DRY</p>
+	</TechnologyContainer> -->
+
 	<Divider>Języki programowania</Divider>
 	<TechnologyContainer>
 		<TechnologyCard name="kotlin" />
@@ -18,29 +23,43 @@
 		<TechnologyCard name="c++" />
 		<TechnologyCard name="ocaml" />
 	</TechnologyContainer>
+
+	<Divider>Pozostałe języki</Divider>
+	<TechnologyContainer>
+		<TechnologyCard name="html" />
+		<TechnologyCard name="css" />
+		<TechnologyCard name="sql" />
+		<TechnologyCard name="markdown" />
+		<TechnologyCard name="latex" />
+	</TechnologyContainer>
+
 	<Divider>Frameworki i biblioteki</Divider>
 	<TechnologyContainer>
 		<TechnologyCard name="jetpack_compose" />
+		<TechnologyCard name="tailwind_css" />
 		<TechnologyCard name="svelte" />
 		<TechnologyCard name="svelte_kit" />
-		<TechnologyCard name="tailwind_css" />
+		<TechnologyCard name="svelte_cubed" />
 		<TechnologyCard name="three_js" />
 		<TechnologyCard name="opengl" />
-		<TechnologyCard name="svelte_cubed" />
 		<TechnologyCard name="ktor" />
 		<TechnologyCard name="zeromq" />
 		<TechnologyCard name="bogue" />
 	</TechnologyContainer>
 
-	<Divider>Narzędzia i inne</Divider>
+	<Divider>Środowiska programistyczne</Divider>
 	<TechnologyContainer>
-		<TechnologyCard name="linux" />
 		<TechnologyCard name="vscode" />
 		<TechnologyCard name="intellij_idea" />
 		<TechnologyCard name="android_studio" />
 		<TechnologyCard name="goland" />
 		<TechnologyCard name="visual_studio" />
 		<TechnologyCard name="c++builder" />
+	</TechnologyContainer>
+
+	<Divider>Narzędzia i inne</Divider>
+	<TechnologyContainer>
+		<TechnologyCard name="linux" />
 		<TechnologyCard name="gitkraken" />
 		<TechnologyCard name="sourcetree" />
 		<TechnologyCard name="git" />
@@ -48,11 +67,6 @@
 		<TechnologyCard name="bitbucket" />
 		<TechnologyCard name="stack_overflow" />
 		<TechnologyCard name="surge" />
-		<TechnologyCard name="markdown" />
-		<TechnologyCard name="latex" />
-		<TechnologyCard name="html" />
-		<TechnologyCard name="css" />
-		<TechnologyCard name="sql" />
 		<TechnologyCard name="obs" />
 		<TechnologyCard name="gimp" />
 	</TechnologyContainer>

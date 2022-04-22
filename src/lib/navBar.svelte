@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { categories } from './stores';
+	import { categories } from './consts';
 
 	export let selectedCategory: string;
 </script>

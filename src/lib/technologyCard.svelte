@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { technologies } from './stores';
+	import { technologies } from './consts';
 
 	export let name: string;
 	const technology = technologies.get(name);

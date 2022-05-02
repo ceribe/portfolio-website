@@ -123,3 +123,4 @@ export const technologies = new Map<string, Technology>([
 	['surge', { name: 'Surge', filename: '/surge.png', link: 'https://surge.sh' }],
 	['linux', { name: 'Linux', filename: '/linux.png', link: 'https://www.linux.org/' }]
 ]);
+// TODO Add protobufers and makefile

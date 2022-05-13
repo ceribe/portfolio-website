@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Divider from '$lib/Divide.svelte';
-	import ProjectCard from '$lib/ProjectCar.svelte';
+	import Divider from '$lib/Divider.svelte';
+	import ProjectCard from '$lib/ProjectCard.svelte';
 	import Section from '$lib/Section.svelte';
 </script>
 

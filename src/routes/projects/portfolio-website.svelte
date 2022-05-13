@@ -1,8 +1,8 @@
 <script>
-	import Divider from '$lib/Divide.svelte';
+	import Divider from '$lib/Divider.svelte';
 	import Section from '$lib/Section.svelte';
-	import TechnologyCard from '$lib/TechnologyCar.svelte';
-	import TechnologyContainer from '$lib/TechnologyContaine.svelte';
+	import TechnologyCard from '$lib/TechnologyCard.svelte';
+	import TechnologyContainer from '$lib/TechnologyContainer.svelte';
 </script>
 
 <Section title={'Ta strona'}>

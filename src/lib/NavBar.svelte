@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
 	import { categories } from './consts';
 
 	export let selectedCategory: string;
@@ -10,11 +9,13 @@
 >
 	{#each categories as category}
 		<div class="group flex flex-col">
-			<button
-				class="font-semibold text-sm  h-12 pt-1 w-full
+			<a
+				href={category.route}
+				class="font-semibold text-sm  h-12 pt-4 w-full
 					{category.route == selectedCategory ? 'text-black' : 'hover:text-gray-400'}"
-				on:click={() => goto(category.route)}>{category.name}</button
 			>
+				{category.name}
+			</a>
 			<div
 				class="h-1 rounded-t mt-1
 					{category.route == selectedCategory ? 'bg-sky-400/75' : 'group-hover:bg-gray-400'}"

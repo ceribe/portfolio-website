@@ -6,9 +6,6 @@
 	export let link: string;
 </script>
 
-<button
-	class="rounded-2xl mr-2 ml-2 mb-6 hover:shadow-2xl drop-shadow-xl overflow-clip"
-	on:click={() => goto(link)}
->
+<a class="rounded-2xl mr-2 ml-2 mb-6 hover:shadow-2xl drop-shadow-xl overflow-clip" href={link}>
 	<img src={filename} alt={name} />
-</button>
+</a>

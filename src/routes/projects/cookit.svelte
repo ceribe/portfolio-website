@@ -15,7 +15,7 @@
 	</div>
 	<div class="text-lg mt-12 mb-12">
 		Cookit to aplikacja mobilna na Androida służąca do zarządzania kolekcją przepisów. Poza
-		podstawowymi funckjonalnościami takimi jak tworzenie, usuwanie i edycja przepisów, aplikacja
+		podstawowymi funkcjonalnościami takimi jak tworzenie, usuwanie i edycja przepisów, aplikacja
 		posiada także możliwość pobierania przepisów ze stron internetowych, tworzenia list zakupów oraz
 		zaawansowaną wyszukiwarkę przepisów. Głownym powodem do napisania aplikacji była chęć nauczenia
 		się Jetpack Compose-a oraz poznanie lepiej jezyka Kotlin. Przy okazji tworzenia aplikacji

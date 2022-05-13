@@ -114,6 +114,10 @@ export const technologies = new Map<string, Technology>([
 			link: 'https://stackoverflow.com/users/13512978/ceribe'
 		}
 	],
+	[
+		'makefile',
+		{ name: 'Makefile', filename: '/makefile.png', link: 'https://www.gnu.org/software/make/' }
+	],
 	['github', { name: 'Github', filename: '/github.png', link: 'https://github.com/Ceribe' }],
 	[
 		'codewars',
@@ -121,6 +125,14 @@ export const technologies = new Map<string, Technology>([
 	],
 	['bitbucket', { name: 'Bitbucket', filename: '/bitbucket.png', link: 'https://bitbucket.org' }],
 	['surge', { name: 'Surge', filename: '/surge.png', link: 'https://surge.sh' }],
-	['linux', { name: 'Linux', filename: '/linux.png', link: 'https://www.linux.org/' }]
+	['linux', { name: 'Linux', filename: '/linux.png', link: 'https://www.linux.org/' }],
+	['mantisbt', { name: 'MantisBT', filename: '/mantisbt.png', link: 'https://www.mantisbt.org/' }],
+	[
+		'protobuf',
+		{
+			name: 'Protocol Buffers',
+			filename: '/protobuf.png',
+			link: 'https://developers.google.com/protocol-buffers'
+		}
+	]
 ]);
-// TODO Add protobufers, makefile and mantis

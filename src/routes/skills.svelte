@@ -31,6 +31,7 @@
 		<TechnologyCard name="sql" />
 		<TechnologyCard name="markdown" />
 		<TechnologyCard name="latex" />
+		<TechnologyCard name="makefile" />
 	</TechnologyContainer>
 
 	<Divider>Frameworki i biblioteki</Divider>
@@ -44,6 +45,7 @@
 		<TechnologyCard name="opengl" />
 		<TechnologyCard name="ktor" />
 		<TechnologyCard name="zeromq" />
+		<TechnologyCard name="protobuf" />
 		<TechnologyCard name="bogue" />
 	</TechnologyContainer>
 
@@ -69,5 +71,6 @@
 		<TechnologyCard name="surge" />
 		<TechnologyCard name="obs" />
 		<TechnologyCard name="gimp" />
+		<TechnologyCard name="mantisbt" />
 	</TechnologyContainer>
 </Section>

@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Divider from '$lib/divider.svelte';
-	import ProjectCard from '$lib/projectCard.svelte';
-	import Section from '$lib/section.svelte';
+	import Divider from '$lib/Divide.svelte';
+	import ProjectCard from '$lib/ProjectCar.svelte';
+	import Section from '$lib/Section.svelte';
 </script>
 
 <Section title={'Projekty'}>

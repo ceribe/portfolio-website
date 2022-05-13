@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Divider from '$lib/divider.svelte';
-	import Section from '$lib/section.svelte';
-	import TechnologyCard from '$lib/technologyCard.svelte';
-	import TechnologyContainer from '$lib/technologyContainer.svelte';
+	import Divider from '$lib/Divide.svelte';
+	import Section from '$lib/Section.svelte';
+	import TechnologyCard from '$lib/TechnologyCar.svelte';
+	import TechnologyContainer from '$lib/TechnologyContaine.svelte';
 </script>
 
 <Section title={'O mnie'}>

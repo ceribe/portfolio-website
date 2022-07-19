@@ -5,13 +5,13 @@
 	import TechnologyContainer from '$lib/TechnologyContainer.svelte';
 </script>
 
-<Section title={'Umiejętności'}>
+<Section title={'Skills'}>
 	<!-- <Divider>Ogólne</Divider>
 	<TechnologyContainer>
 		<p class="text-lg font-semibold">Angielski B2, REST, SOLID, DRY</p>
 	</TechnologyContainer> -->
 
-	<Divider>Języki programowania</Divider>
+	<Divider>Programming languages</Divider>
 	<TechnologyContainer>
 		<TechnologyCard name="kotlin" />
 		<TechnologyCard name="ruby" />
@@ -21,10 +21,18 @@
 		<TechnologyCard name="go" />
 		<TechnologyCard name="python" />
 		<TechnologyCard name="c++" />
-		<TechnologyCard name="ocaml" />
 	</TechnologyContainer>
+	<div class="p-4">
+		Langauges listed above are the ones that I used the most and the ones I am most familiar with.
+		For the full list of languages that I used check my <a
+			href="https://github.com/Ceribe"
+			class="text-blue-400 text-lg"
+		>
+			Github profile
+		</a>.
+	</div>
 
-	<Divider>Pozostałe języki</Divider>
+	<Divider>Other languages</Divider>
 	<TechnologyContainer>
 		<TechnologyCard name="html" />
 		<TechnologyCard name="css" />
@@ -34,7 +42,7 @@
 		<TechnologyCard name="makefile" />
 	</TechnologyContainer>
 
-	<Divider>Frameworki i biblioteki</Divider>
+	<Divider>Frameworks & Libraries</Divider>
 	<TechnologyContainer>
 		<TechnologyCard name="jetpack_compose" />
 		<TechnologyCard name="tailwind_css" />
@@ -49,7 +57,7 @@
 		<TechnologyCard name="bogue" />
 	</TechnologyContainer>
 
-	<Divider>Środowiska programistyczne</Divider>
+	<Divider>IDEs</Divider>
 	<TechnologyContainer>
 		<TechnologyCard name="vscode" />
 		<TechnologyCard name="intellij_idea" />
@@ -59,7 +67,7 @@
 		<TechnologyCard name="c++builder" />
 	</TechnologyContainer>
 
-	<Divider>Narzędzia i inne</Divider>
+	<Divider>Tools & Other</Divider>
 	<TechnologyContainer>
 		<TechnologyCard name="linux" />
 		<TechnologyCard name="gitkraken" />

@@ -5,16 +5,15 @@
 	import TechnologyContainer from '$lib/TechnologyContainer.svelte';
 </script>
 
-<Section title={'Ta strona'}>
+<Section title={'This website'}>
 	<div class="text-lg mb-12">
-		Statyczna strona internetowa dzięki, której informacje o mnie są zebrane w jednym łatwo
-		dostępnym miejscu. Głownym powodem stworzenia tej strony była chęć nauczenia się Svelte oraz
-		rozszerzenia swoich umiejętności o podstawy webdev-u. Wybrałem Svelte ze względu na prostotę
-		użycia oraz fakt, że możliwe jest generowanie z jego pomocą statycznych stron. Kod źródłowy
-		znajduje się <a href="https://github.com/ceribe/portfolio-website" class="underline">tutaj</a>.
+		Static website on which my projects and skills are showcased. The reason for creating this
+		website was the desire to learn Svelte and webdev. I chose Svelte because of its simplicity and
+		the fact that it is possible to generate static websites using it. The source code is available
+		<a href="https://github.com/ceribe/portfolio-website" class="text-blue-400">here</a>.
 	</div>
 
-	<Divider>Użyte techonologie</Divider>
+	<Divider>Tools used for this project</Divider>
 	<TechnologyContainer>
 		<TechnologyCard name="typescript" />
 		<TechnologyCard name="svelte" />

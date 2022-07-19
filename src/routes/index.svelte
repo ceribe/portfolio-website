@@ -5,22 +5,22 @@
 	import TechnologyContainer from '$lib/TechnologyContainer.svelte';
 </script>
 
-<Section title={'O mnie'}>
-	<Divider>Wykształcenie</Divider>
-	<p class="text-lg">Inżynier - Politechnika Poznańska (2022)</p>
-	<Divider>Doświadczenie</Divider>
+<Section title={'About me'}>
+	<Divider>Education</Divider>
+	<p class="text-lg">Engineer - Poznań University of Technology (2022)</p>
+	<Divider>Experience</Divider>
 	<p class="text-lg">
-		[16/07/2019 - Teraz] Programista C++ | CAD&nbsp;Projekt&nbsp;K&A&nbsp;Sp.&nbsp;z&nbsp;o.o.
+		[16/07/2019 - Now] C++ Programmer | CAD&nbsp;Projekt&nbsp;K&A&nbsp;Sp.&nbsp;z&nbsp;o.o.
 	</p>
 	<p class="text-lg pt-2">
-		[19/07/2019 - Teraz] Prowadzenie sklepu wysyłkowego przez platformę
-		<a href="https://www.cardmarket.com/en/Magic/Users/Ceribe" class="text-blue-600">CardMarket</a>
+		[19/07/2019 - Now] Running an online shop via
+		<a href="https://www.cardmarket.com/en/Magic/Users/Ceribe" class="text-blue-400">CardMarket</a>
 	</p>
-	<Divider>Kontakt</Divider>
-	<a href="mailto:szymon.opielewicz@gmail.com" class="text-blue-600 text-lg">
+	<Divider>Contact</Divider>
+	<a href="mailto:szymon.opielewicz@gmail.com" class="text-blue-400 text-lg">
 		szymon.opielewicz@gmail.com
 	</a>
-	<Divider>Profile</Divider>
+	<Divider>Profiles</Divider>
 	<TechnologyContainer>
 		<TechnologyCard name="github" />
 		<TechnologyCard name="stack_overflow" />

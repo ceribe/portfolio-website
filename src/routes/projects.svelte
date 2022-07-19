@@ -4,8 +4,8 @@
 	import Section from '$lib/Section.svelte';
 </script>
 
-<Section title={'Projekty'}>
-	<Divider>Wykonane w celu samorozwoju</Divider>
+<Section title={'Projects'}>
+	<Divider>Personal projects</Divider>
 	<div class="w-full grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
 		<ProjectCard name="Cookit" filename="/cookit.png" link="/projects/cookit" />
 		<ProjectCard
@@ -14,7 +14,7 @@
 			link="/projects/advent-of-code"
 		/>
 		<ProjectCard
-			name="Ta strona"
+			name="This webstie"
 			filename="/portfolio_website.png"
 			link="/projects/portfolio-website"
 		/>

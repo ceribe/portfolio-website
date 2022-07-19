@@ -1,7 +1,7 @@
 export const categories = [
-	{ name: 'O mnie', route: '/' },
-	{ name: 'Umiejętności', route: '/skills' },
-	{ name: 'Projekty', route: '/projects' }
+	{ name: 'About', route: '/' },
+	{ name: 'Skills', route: '/skills' },
+	{ name: 'Projects', route: '/projects' }
 ];
 
 export interface Technology {

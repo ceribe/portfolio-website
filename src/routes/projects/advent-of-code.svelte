@@ -8,18 +8,17 @@
 <Section title={'Advent of Code'}>
 	<div class="flex justify-center items-center flex-col">
 		<img src="/advent_of_code.png" alt="advent of code" class="w-[26rem] rounded-2xl" />
-		<a href="https://adventofcode.com/" class="mt-2 text-lg font-semibold underline">Zobacz</a>
+		<a href="https://adventofcode.com/" class="mt-2 text-lg font-semibold underline">Check out</a>
 	</div>
 	<div class="text-lg mt-12 mb-12">
-		Advent of Code to coroczne wydarzenie programistyczne w którym biorę udział od 2021 roku.
-		Każdego roku od 1 do 25 grudnia o 6:00 publikowane są zadania programistyczne o rosnącym
-		poziomie trudności. Zadania z poprzednich lat są dostępne na stronie więc można nad nimi
-		pracować nawet po zakończeniu wydarzenia. Zadania z każdego roku rozwiązuję z użyciem innego
-		języka programowania aby poznać ich składnie i możliwości. Wszystkie moje rozwiązania są
-		dostępne <a href="https://github.com/ceribe/advent-of-code-2021" class="underline">tutaj</a>.
+		Advent of Code is an annual event in December since 2015. Every year since then, with the first
+		day of December, a programming puzzles contest is published every day for twenty-four days. A
+		set of Christmas-oriented challenges provide any input you have to use to answer using the
+		language of your choice. I solve each year using a different language to learn them. All my
+		solutions are <a href="https://github.com/ceribe/advent-of-code" class="text-blue-400">here</a>.
 	</div>
 
-	<Divider>Użyte techonologie</Divider>
+	<Divider>Tools used for this project</Divider>
 	<TechnologyContainer>
 		<TechnologyCard name="javascript" />
 		<TechnologyCard name="go" />

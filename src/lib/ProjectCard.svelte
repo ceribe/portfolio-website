@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
-
 	export let name: string;
 	export let filename: string;
 	export let link: string;

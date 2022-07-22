@@ -136,3 +136,44 @@ export const technologies = new Map<string, Technology>([
 		}
 	]
 ]);
+
+export const skills = {
+	programmingLanguages: [
+		'kotlin',
+		'ruby',
+		'dart',
+		'javascript',
+		'typescript',
+		'go',
+		'python',
+		'c++'
+	],
+	otherLanguages: ['html', 'css', 'sql', 'markdown', 'latex', 'makefile'],
+	frameworksAndLibraries: [
+		'jetpack_compose',
+		'tailwind_css',
+		'svelte',
+		'svelte_kit',
+		'svelte_cubed',
+		'three_js',
+		'opengl',
+		'ktor',
+		'zeromq',
+		'protobuf',
+		'bogue'
+	],
+	ides: ['vscode', 'intellij_idea', 'android_studio', 'goland', 'visual_studio', 'c++builder'],
+	toolsAndOther: [
+		'linux',
+		'gitkraken',
+		'sourcetree',
+		'git',
+		'github',
+		'bitbucket',
+		'stack_overflow',
+		'surge',
+		'obs',
+		'gimp',
+		'mantisbt'
+	]
+};

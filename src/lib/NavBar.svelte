@@ -11,8 +11,8 @@
 		<div class="group flex flex-col">
 			<a
 				href={category.route}
-				class="font-semibold text-sm  h-12 pt-4 w-full
-					{category.route == selectedCategory ? 'text-white' : 'hover:text-white'}"
+				class="font-semibold text-sm h-12 pt-4 w-full hover:text-white
+					{category.route == selectedCategory ? 'text-white' : ''}"
 			>
 				{category.name}
 			</a>
